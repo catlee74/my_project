@@ -249,3 +249,46 @@ hr {
   background-color: #dfdfdf;
   border: 0;
 }
+
+.support {
+  position: relative;
+  margin-top: 6.25rem;
+}
+
+.support-text {
+  position: absolute;
+  top: 5.4rem;
+  left: 15.625rem;
+  z-index: 1;
+  width: 58.8125rem;
+  height: 25rem;
+  color: #dfdfdf;
+}
+
+.support-title {
+  padding-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.support-maintext {
+  padding-bottom: 3.125rem;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.support-btn {
+  width: 120px;
+  height: 35px;
+  padding-block: 0.2rem;
+  padding-inline: 1.5rem;
+  font-weight: 700;
+  color: #151515;
+  background-color: #efefef;
+  border-radius: 1.25rem;
+}
+
+.support-btn-text {
+  text-align: center;
+}
