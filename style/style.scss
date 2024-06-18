@@ -52,7 +52,7 @@ img {
 
   &-right {
     padding-block: 0.15rem;
-    padding-inline: 0.7rem;
+    padding-inline: 0.85rem;
     font-weight: 700;
     color: #151515;
     background-color: #efefef;
@@ -314,4 +314,61 @@ hr {
 
 .support-btn-text {
   text-align: center;
+}
+
+.footer {
+  padding-block: 6.25rem;
+  padding-inline: 15.625rem;
+  color: #dfdfdf;
+  background-color: #151515;
+}
+
+.footer-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.footer_itme_title {
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.footer_itme_text {
+  line-height: 1.75rem;
+}
+
+.footer-bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bot-left {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  padding-top: 3.125rem;
+}
+
+.footer-bot-logo {
+  column-gap: 0.625rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer-bot-text-1 {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer-bot-text-2 {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
 }
