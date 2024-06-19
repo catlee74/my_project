@@ -45,7 +45,7 @@ img {
        column-gap: 0.625rem;
 }
 .navigation-left-logo-logotitle {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 .navigation-right {
@@ -152,7 +152,7 @@ img {
   position: relative;
   margin-inline: auto;
   margin-top: 6.25rem;
-  margin-bottom: 6.25rem;
+  margin-bottom: 5rem;
   color: #efefef;
 }
 .lecture-text {
@@ -183,6 +183,35 @@ img {
   font-weight: 400;
 }
 
+.introduce {
+  padding-inline: 15.625rem;
+  padding-bottom: 5rem;
+}
+
+.introduce-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.introduce-img {
+  display: grid;
+}
+
+.introduce-text {
+  display: grid;
+  grid-column: 2/5;
+  padding: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%;
+  color: #0a2840;
+  letter-spacing: -0.015rem;
+  background-color: rgba(245, 245, 245, 0.6941176471);
+  border: 2px solid #d9dee1;
+  border-radius: 0.625rem;
+}
+
 .church {
   padding-inline: 15.625rem;
 }
@@ -197,7 +226,7 @@ img {
 .church-hr {
   width: 10%;
   height: 0.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   margin-left: 0;
   background-color: #d9dee1;
 }
@@ -205,20 +234,20 @@ img {
 .church-title {
   margin-bottom: 2rem;
   font-size: 2.1875rem;
-  font-weight: 900;
+  font-weight: 800;
   color: #0a2840;
   letter-spacing: -0.025rem;
 }
 
 .church-img {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .church-text {
   padding-bottom: 5rem;
   font-size: 18px;
   font-weight: 600;
-  line-height: 150%;
+  line-height: 160%;
   color: #040e15;
   letter-spacing: -0.015rem;
 }
@@ -235,7 +264,8 @@ img {
   color: #0a2840;
   letter-spacing: -0.015rem;
   background-color: #fff;
-  border-radius: 1.875rem;
+  border-radius: 0.9375rem;
+  box-shadow: #ddd 0 5px 10px 0;
 }
 
 .church-vision-title {
@@ -266,7 +296,8 @@ img {
   padding-inline: 1.25rem;
   background-color: rgba(245, 245, 245, 0.6941176471);
   border: 3px solid #d9dee1;
-  border-radius: 30px;
+  border-radius: 0.9375rem;
+  box-shadow: #ddd 0 5px 10px 0;
 }
 
 .news-img {
