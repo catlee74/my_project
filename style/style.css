@@ -201,7 +201,8 @@ img {
 .introduce-text {
   display: grid;
   grid-column: 2/5;
-  padding: 25px;
+  padding-block: 25px;
+  padding-inline: 40px;
   font-size: 18px;
   font-weight: 600;
   line-height: 160%;
