@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  background-color: #5c5c5c;
+  background-color: #464646;
 }
 
 img {
@@ -74,15 +74,18 @@ img {
 }
 
 .subtitle {
-  padding-bottom: 4rem;
-  font-size: 2.5rem;
+  padding-bottom: 6rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .title {
-  padding-bottom: 6rem;
-  font-size: 5rem;
-  font-weight: 700;
+  padding-bottom: 10rem;
+  font-family: ohneuleun, sans-serif;
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.025rem;
 }
 
 .titletext {
@@ -303,7 +306,7 @@ hr {
 .footer-1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2.5rem;
+  gap: 1rem;
 }
 
 /* stylelint-disable-next-line selector-class-pattern */
@@ -325,16 +328,13 @@ hr {
 
 .footer-bot-left {
   display: flex;
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
   align-items: center;
   padding-top: 3.125rem;
 }
 
 .footer-bot-logo {
-  -moz-column-gap: 0.625rem;
-       column-gap: 0.625rem;
-  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 

@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my project</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <!-- 오늘은 폰트 -->
+    <script>
+      (function (d) {
+        var config = {
+            kitId: 'xxt3uij',
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+          }, config.scriptTimeout),
+          tk = d.createElement('script'),
+          f = false,
+          s = d.getElementsByTagName('script')[0],
+          a;
+        h.className += ' wf-loading';
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != 'complete' && a != 'loaded')) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
   </head>
   <body>
     <div class="container">
@@ -36,15 +68,13 @@
       </div>
       <div class="section hero">
         <div class="hero hero_text">
-          <div class="subtitle">제 64회</div>
-          <div class="title">랩틸리언 정화 집회</div>
+          <div class="subtitle">제 64회 랩틸리언 정화 집회</div>
+          <div class="title">기도의 힘을 믿습니다</div>
           <div class="titletext">
             광명교는 진실과 빛을 통해 랩틸리언의 음모를 밝히고자 합니다.
             <br />지구를 침탈하는 랩틸리언으로부터 우리 지구를 지켜냅시다.
           </div>
-          <div class="minitext">
-            집회장소: 광명대교 앞 <br />집회시간: 2024.06.30 오전10시~오후3시
-          </div>
+          <div class="minitext">집회시간: 2024.06.30 오전10시~오후3시</div>
         </div>
         <div class="dot">
           <div class="dot-img-1"></div>
@@ -64,7 +94,7 @@
       </div>
       <div class="section church">
         <div class="chrch-title">어둠을 몰아내고 빛을 밝히자</div>
-        <img class="chrch-img" src="./assets/Reptilian.png" alt="" />
+        <img class="chrch-img" src="./assets/reptilian_1.png" alt="" />
         <div class="chrch-text">
           랩틸리언들은 은밀히 우리 사회에 침투하여, 사람들의 정신을 조종하고
           삶을 파괴하고 있습니다. <br />광명교는 이 피해자들을 구원하고,
@@ -74,7 +104,7 @@
       </div>
       <div class="section church">
         <div class="chrch-title">어둠을 몰아내고 빛을 밝히자</div>
-        <img class="chrch-img" src="./assets/Reptilian.png" alt="" />
+        <img class="chrch-img" src="./assets/reptilian_2.png" alt="" />
         <div class="chrch-text">
           랩틸리언들은 은밀히 우리 사회에 침투하여, 사람들의 정신을 조종하고
           삶을 파괴하고 있습니다. <br />광명교는 이 피해자들을 구원하고,
@@ -185,8 +215,10 @@
             />
 
             <div class="footer-bot-logo">광명교</div>
-            <div class="footer-bot-text-1">주소: 무명특별시 무명구 무명로</div>
-            <div class="footer-bot-text-2">425번지 전화: 000-000-000</div>
+            <div class="footer-bot-text-1">
+              <b>주소:</b> 무명특별시 무명구 무명로 425번지
+            </div>
+            <div class="footer-bot-text-2"><b>전화:</b> 000-000-000</div>
           </div>
         </div>
       </div>
