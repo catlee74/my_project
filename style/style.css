@@ -188,35 +188,36 @@ img {
 }
 
 .church-subtitle {
-  margin-bottom: 1rem;
-  font-size: 24px;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #6e767b;
 }
 
 .church-hr {
-  width: 15%;
+  width: 10%;
   height: 0.2rem;
+  margin-bottom: 1rem;
   margin-left: 0;
   background-color: #d9dee1;
 }
 
 .church-title {
-  margin-bottom: 2.5rem;
-  font-size: 2rem;
-  font-weight: 800;
+  margin-bottom: 2rem;
+  font-size: 2.1875rem;
+  font-weight: 900;
   color: #0a2840;
   letter-spacing: -0.025rem;
 }
 
 .church-img {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .church-text {
-  padding-bottom: 6.25rem;
+  padding-bottom: 5rem;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 150%;
   color: #040e15;
   letter-spacing: -0.015rem;
@@ -230,17 +231,17 @@ img {
 
 .vision {
   padding: 2rem;
-  margin-top: 6.25rem;
-  color: #040e15;
+  margin-top: 5rem;
+  color: #0a2840;
   letter-spacing: -0.015rem;
   background-color: #fff;
   border-radius: 1.875rem;
 }
 
 .church-vision-title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .church-vision-hr {
@@ -263,7 +264,7 @@ img {
   place-items: center;
   padding-block: 2rem;
   padding-inline: 1.25rem;
-  background-color: #efefef;
+  background-color: rgba(245, 245, 245, 0.6941176471);
   border: 3px solid #d9dee1;
   border-radius: 30px;
 }
@@ -276,7 +277,7 @@ img {
 }
 
 .news-line {
-  margin-bottom: 6.25rem;
+  margin-bottom: 5rem;
 }
 
 .card-text {
